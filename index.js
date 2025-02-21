@@ -15,7 +15,6 @@ const clienteRoutes = require("./routes/clienteRoutes");
 const reservaRoutes = require("./routes/reservaRoutes");
 
 const app = express();
-const port = process.env.PORT || 3000;
 
 // Configurar middleware para analizar JSON en las solicitudes
 app.use(express.json());
